@@ -17,7 +17,7 @@ catkin_package(
 )
 include_directories( ${catkin_INCLUDE_DIRS} )
 include_directories( include ${PCL_INCLUDE_DIRS} )
-include_directories("/usr/include/eigen3")
+
 
 
 add_executable(plane_segmentation src/plane_segmentation.cpp)
