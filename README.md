@@ -16,7 +16,9 @@ D435iを使用して，PCLの平面検出をrvizでの視覚化や公式のサ�
  
  起動　
  $roslaunch pcl_sample camera.launch
+ 
  別ターミナルで
+ 
  $rosrun pcl_sample through
  
  rvizでのtopicから追加
@@ -26,7 +28,9 @@ D435iを使用して，PCLの平面検出をrvizでの視覚化や公式のサ�
  
  起動
  $roslaunch pcl_sample camera.launch
+ 
  別ターミナルで
+ 
  $rosrun pcl_sample plane
  
   rvizでのtopicから追加
@@ -35,7 +39,9 @@ D435iを使用して，PCLの平面検出をrvizでの視覚化や公式のサ�
   指定した範囲名での平面検出を行います。
   
  $roslaunch pcl_sample camera.launch
+ 
  別ターミナルで
+ 
  $rosrun pcl_sample select_plane
   
  
