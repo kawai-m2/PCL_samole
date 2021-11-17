@@ -20,14 +20,6 @@ include_directories( include ${PCL_INCLUDE_DIRS} )
 include_directories("/usr/include/eigen3")
 
 
-add_executable(pcd_write src/pcd_write.cpp)
-target_link_libraries(pcd_write ${catkin_LIBRARIES} )
-
-
-add_executable(plane_segmentation src/plane_segmentation.cpp)
-target_link_libraries(plane_segmentation ${catkin_LIBRARIES} )
-
-
 add_executable(plane src/plane.cpp)
 target_link_libraries(plane ${catkin_LIBRARIES} )
 
@@ -36,3 +28,7 @@ target_link_libraries(through ${catkin_LIBRARIES} )
 
 add_executable(select_plane src/select_plane.cpp)
 target_link_libraries(select_plane ${catkin_LIBRARIES} )
+
+add_executable(aa src/aa.cpp)
+target_link_libraries(aa ${catkin_LIBRARIES} )
+
