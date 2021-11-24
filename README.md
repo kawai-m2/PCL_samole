@@ -39,7 +39,7 @@ D435iを使用して，PCLの平面検出をrvizでの視覚化や公式のサ�
   
   ・path though + 平面感出
   指定した範囲名での平面検出を行います。
-  ```sh
+ ```sh
  $roslaunch pcl_sample camera.launch
  ```
  別ターミナルで
